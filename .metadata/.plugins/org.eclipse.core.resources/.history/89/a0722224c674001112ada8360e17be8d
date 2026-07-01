@@ -1,0 +1,31 @@
+package calculadora;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double n1 ;
+		double n2;
+		System.out.println("Informe o número : ");
+		n1 = sc.nextDouble();
+		System.out.println("Informe outro número : ");
+		n2 = sc.nextInt();
+		System.out.println("A soma  : " + (n1 +n2) );
+		System.out.println("A subtração dos números  : " +(n1-n2));
+		System.out.println("A multiplicação dos números  : " + (n1 * n2) );
+		System.out.println("A divisão : " +(n1/n2));
+		if (n2 != 0) {
+			System.out.println("A divisão : " +(n1/n2));
+		}
+		else {
+			System.out.println("A divisão não pode ser feita ! ");
+		}
+		sc.close();
+		
+		
+
+	}
+
+}

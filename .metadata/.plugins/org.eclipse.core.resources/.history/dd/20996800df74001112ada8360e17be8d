@@ -1,0 +1,31 @@
+package cadastro;
+
+import java.util.Scanner;
+
+public class Program { // Cadastro de Login 
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String nome;
+		String sobrenome ;
+		String email;
+		int cpf;
+		int senha;
+		System.out.println("Olá seja Bem vindo ");
+		System.out.println();
+		System.out.println("Nome : ");
+		nome =sc.nextLine();
+		System.out.println("Sobrenome : ");
+		sobrenome =sc.nextLine();
+		System.out.println("Email : ");
+		email =sc.nextLine();
+		System.out.println("CPF : ");
+		cpf =sc.nextInt();
+		System.out.println("Senha : ");
+		senha =sc.nextInt();
+		System.out.println("Cadastro criado. Olá " +nome +"Seja Bem vindo");
+		
+
+	}
+
+}

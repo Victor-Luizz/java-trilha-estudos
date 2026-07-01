@@ -1,0 +1,12 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		int y=10;
+		for(int i =1; i<y;i++) {
+			System.out.println(i);
+			
+		}
+	}
+
+}

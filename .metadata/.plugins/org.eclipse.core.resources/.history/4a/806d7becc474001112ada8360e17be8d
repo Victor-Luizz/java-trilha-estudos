@@ -1,0 +1,25 @@
+package calculadora;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n1 ;
+		int n2;
+		System.out.println("Informe o número : ");
+		n1 = sc.nextInt();
+		System.out.println("Informe outro número : ");
+		n2 = sc.nextInt();
+		System.out.println("A soma  : " + n1 + n2 );
+		System.out.println("A subtração dos números  : " +(n1-n2));
+		System.out.println("A multiplicação dos números  : " + (n1 * n2) );
+		System.out.println("A divisão : " +(n1/n2));
+		sc.close();
+		
+		
+
+	}
+
+}
